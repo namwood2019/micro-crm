@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Doris, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4; }
+
+.container {
+  max-width: 1080px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+a {
+  text-decoration: none;
+  color: #333333; }
+
+ul {
+  list-style: none; }
+
+.is-active {
+  color: #333333;
+  background-color: #f4f4f4; }
+
+.is-error {
+  color: #333;
+  background-color: #FF0000; }
+
+.is-warning {
+  color: #f4f4f4;
+  background-color: #ffbc00; }
+
+.is-active:hover {
+  background-color: #ffbc00; }
+
+h1 {
+  font-size: 3rem; }
+
+#logo {
+  text-transform: uppercase;
+  font-size: 4rem; }
+
+.btn-main, .btn-light, .btn-dark, .btn-danger {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all o 0.5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-main {
+  color: #333;
+  background-color: #ffbc00; }
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4; }
+
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333333; }
+
+.btn-danger {
+  color: #f4f4f4;
+  background-color: #FF0000; }
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: #ffbc00; }
+
+.bg-main {
+  background: #ffbc00;
+  color: #fff; }
+
+.bg-dark {
+  background: #333333;
+  color: #fff; }
+
+.bg-light {
+  background: #f4f4f4;
+  color: #000; }
+
+.bg-medium {
+  background: #cccccc;
+  color: #000; }
+
+.text-center {
+  text-align: center; }
+
+.p-1 {
+  padding: 1rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
+.hr-line {
+  height: 1px;
+  width: 100%;
+  background: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
+header {
+  background: #333333;
+  height: 45px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  padding: 1rem 0;
+  font-size: small; }
+  header #main-nav {
+    display: flex;
+    justify-content: space-between; }
+    header #main-nav ul {
+      display: flex; }
+    header #main-nav li {
+      padding: 1rem 1rem; }
+    header #main-nav a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      transition: border-color 0.5s; }
+      header #main-nav a:hover {
+        border-color: #cccccc; }
+      header #main-nav a.current {
+        border-color: #ffbc00; }
+    header #main-nav .logo {
+      width: 90px;
+      height: 45px; }
+    header #main-nav form input {
+      background: #f4f4f4 none repeat scroll 0 0;
+      border: 0 none;
+      color: #7f7d7d;
+      float: left;
+      font-size: 12px;
+      padding: 5px;
+      text-align: left;
+      width: auto;
+      margin: 0;
+      margin-top: 1rem;
+      margin-left: 10px; }
+    header #main-nav .myCart .fa {
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem; }
+      header #main-nav .myCart .fa:hover {
+        background: #ffbc00; }
+    header #main-nav button {
+      height: 100%; }
+  header button {
+    border: 1px solid #fff; }
+
+#main-footer {
+  background: #333333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fa {
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem; }
+      #main-footer .footer-content .social .fa:hover {
+        background: #ffbc00; }
