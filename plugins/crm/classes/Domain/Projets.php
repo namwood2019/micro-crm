@@ -14,9 +14,9 @@ class Projets extends ProjetsMetabox{
 
   public function create_projets_post_type() {
     $label = array (
-        'name'               => __ ( 'Projets', 'kraft' ),
-        'singular_name'      => __ ( 'Projet', 'kraft' ),
-        'menu_name'          => _x ( 'Projets', 'Admin menu name', 'kraft' ),
+        'name'               => __ ( 'Micro-CRM', 'kraft' ),
+        'singular_name'      => __ ( 'Micro_CRM', 'kraft' ),
+        'menu_name'          => _x ( 'Micro_CRM', 'Admin menu name', 'kraft' ),
         'add_new'            => __ ( 'Ajouter une projet', 'kraft' ),
         'add_new_item'       => __ ( 'Ajouter une projet', 'kraft' ),
         'edit'               => __ ( 'Editer la projet', 'kraft' ),
@@ -40,7 +40,9 @@ class Projets extends ProjetsMetabox{
         'hierarchical'        => false,
         'show_in_rest'        => true,
         'menu_icon'           => 'dashicons-archive',
-        'rest_base'         => 'kraft_projets',
+        'menu_position'       => 4,
+        'show_in_nav_menus'   => FALSE,
+        'rest_base'           => 'kraft_projets',
         'rewrite'             => array ( 'slug' => 'projets' ),
         'capability_type'     => 'post',
     );
