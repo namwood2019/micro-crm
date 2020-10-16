@@ -109,3 +109,15 @@ header{
     }
   }
 }
+
+//main
+#work-a{
+  .item{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+    .item-image img{
+      width: 200px;
+    }
+  }
+}
