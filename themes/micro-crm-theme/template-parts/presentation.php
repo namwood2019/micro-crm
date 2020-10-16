@@ -9,115 +9,58 @@ Template Name: Presentaion Page
 <!-- Section A: Gallery -->
 <section id="work-a" class="text-center py-3">
     <div class="container">
-      <h2 class="section-title">Monsieur Vertlette</h2>
-      <div class="bottom-line"></div>
-      <h3 class="lead">La visionaire</h3>
-      <br/>
-      <div class="items">
+
+      <h1 class="section-title">Presentation de notre equipe</h1>
+      <div class="bottom-line" ></div>
+
+
         <div class="item">
           <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item1.jpg" alt="">
+            <img src="<?php bloginfo('template_directory'); ?>../img/person.png" alt="">
           </div>
           <div class="item-text">
             <div class="item-text-wrap">
-              <p class="item-text-category">Design</p>
-              <h2 class="item-text-title">Great Gradients</h2>
+            <h2>Mahdi T</h2>
+            <h3>Domaine: Analyste</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Commodi quos atque reprehenderit provident, ut eius laborum 
+              ratione fugiat libero molestias debitis, nostrum excepturi 
+              incidunt repudiandae accusantium sit quia iusto nemo.</p>
             </div>
           </div>
         </div>
 
+
+
         <div class="item">
           <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item2.jpg" alt="">
+            <img src="<?php bloginfo('template_directory'); ?>../img/person.png" alt="">
           </div>
           <div class="item-text">
             <div class="item-text-wrap">
-              <p class="item-text-category">UI/UX</p>
-              <h2 class="item-text-title">World Experience</h2>
+            <h2>Quy Nan N</h2>
+            <h3>Specialiste Backend </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Commodi quos atque reprehenderit provident, ut eius laborum 
+              ratione fugiat libero molestias debitis, nostrum excepturi 
+              incidunt repudiandae accusantium sit quia iusto nemo.</p>
             </div>
           </div>
         </div>
 
-        <div class="item">
-          <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item1.jpg" alt="">
-          </div>
-          <div class="item-text">
-            <div class="item-text-wrap">
-              <p class="item-text-category">Photography & Design</p>
-              <h2 class="item-text-title">Vanishing</h2>
-            </div>
-          </div>
-        </div>
 
         <div class="item">
           <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item2.jpg" alt="">
+            <img src="<?php bloginfo('template_directory'); ?>../img/person.png" alt="">
           </div>
           <div class="item-text">
             <div class="item-text-wrap">
-              <p class="item-text-category">Design</p>
-              <h2 class="item-text-title">Gap Inc</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item1.jpg" alt="">
-          </div>
-          <div class="item-text">
-            <div class="item-text-wrap">
-              <p class="item-text-category">Mobile UI Design</p>
-              <h2 class="item-text-title">Face the Experience</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item2.jpg" alt="">
-          </div>
-          <div class="item-text">
-            <div class="item-text-wrap">
-              <p class="item-text-category">Design Concept</p>
-              <h2 class="item-text-title">Bezier Curves/h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item1.jpg" alt="">
-          </div>
-          <div class="item-text">
-            <div class="item-text-wrap">
-              <p class="item-text-category">Photography</p>
-              <h2 class="item-text-title">Dock Ponder</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item2.jpg" alt="">
-          </div>
-          <div class="item-text">
-            <div class="item-text-wrap">
-              <p class="item-text-category">Web Application</p>
-              <h2 class="item-text-title">Great Gradients</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-image">
-            <img src="<?php bloginfo('template_directory'); ?>/img/presentation/item1.jpg" alt="">
-          </div>
-          <div class="item-text">
-            <div class="item-text-wrap">
-              <p class="item-text-category">Social Networks</p>
-              <h2 class="item-text-title">Great Gradients</h2>
+            <h2>Theodore L</h2>
+            <h3>Specialiste Frentend</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Commodi quos atque reprehenderit provident, ut eius laborum 
+              ratione fugiat libero molestias debitis, nostrum excepturi 
+              incidunt repudiandae accusantium sit quia iusto nemo.</p>
             </div>
           </div>
         </div>
