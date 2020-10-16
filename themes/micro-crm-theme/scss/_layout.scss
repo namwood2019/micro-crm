@@ -121,3 +121,21 @@ header{
     }
   }
 }
+
+//page contact
+.text-fields{
+  display: flex ;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+.container .mapouter{
+  margin: 40px auto;
+}
+
+#contact-b .contact-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  
